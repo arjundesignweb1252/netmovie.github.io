@@ -1,0 +1,110 @@
+@media only screen and (max-width: 600px){
+    .banner-img{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.881),rgba(3, 3, 0, 0.717)),url(assets/img/movie-img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+        /* height: 700px; */
+        object-fit: cover;
+        
+    }
+}
+@media only screen and (max-width: 900px){
+    .nav-logo{
+        display: flex;
+        align-items:start;
+        justify-content: start;
+        }
+        .nav-logo img{
+            width: 170px;
+            height: 100px;
+            margin-left: 10px;
+        }
+}
+
+@media screen and (max-width: 500px){
+    .lang #language{
+        float: right;
+        margin-top: 25px;
+        margin-left: -10px;
+        border: 1px solid white;
+        outline: none;
+        border-radius: 3px;
+        background-color: rgb(183, 0, 0);
+        color: white;
+        font-size: 10px;
+
+     }
+     .lang .btnn{
+         float: right;
+         margin: 30px 10px;
+         border-radius: 4px;
+         padding: 2px;
+         font-size: 7px;
+         background-color: red;
+         color: white;
+         border: none;
+         cursor: pointer;
+     }
+     .lang .btn{
+         float: right;
+         margin-top: 30px;
+         border-radius: 4px;
+         padding: 2px;
+         font-size: 7px;
+         background-color: black;
+         color: white;
+         border: none;
+         cursor: pointer;
+     }
+     .movies h1{
+        color: white;
+        margin-top: 30%;
+        font-size: 2rem;
+         }
+    .movies h5{
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+       
+    }
+    .movies p{
+        text-align: center;
+        font-size: 12px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        margin-top: 20px;
+    }
+    .new-email{
+        margin-left: 20%;
+        text-decoration: none;
+        color: red;
+        font-size: 15px;
+    } 
+    .movies .streaming{
+        color: white;
+        font-size: 15px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 50px;
+    }
+    .enjoy img{
+        width: 350px;
+        height: 300px;
+        filter: drop-shadow(2px 2px 5px rgb(255, 255, 255));
+    }
+    .download-content h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+    }
+    .download-content p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .down-content img{
+        width: 350px;
+        height: 280px;
+        margin-top: 60px;
+    }
+}
